@@ -24,7 +24,7 @@ button:hover {
 
 .general-div {
     width: 100%;
-
+    min-width: 1250px;
     /*padding: 0 6.6vw;*/
     box-sizing: border-box;
 }
@@ -223,7 +223,7 @@ main {
     /*background: #FFFFFE;*/
 
     display: flex;
-    padding: 21px 13.89vw 21px 1.74vw;
+    padding: 21px 1.74vw 21px 1.74vw;
     align-items: center;
     gap: 10px;
 
@@ -392,6 +392,7 @@ main {
     width: 15.27vw;
     max-width: 220px;
     flex-shrink: 0;
+    min-width: 180px;
 
     border-radius: 8px;
     background: #FFFFFE;
@@ -796,7 +797,8 @@ article > .getting_started_with_react {
 
 .aside-box > form > label {
     display: flex;
-    padding: 21px 13.89vw 21px 1.74vw;
+    /*padding: 21px 13.89vw 21px 1.74vw;*/
+    padding: 21px 1.74vw 21px 1.74vw;
     align-items: center;
     gap: 10px;
 
