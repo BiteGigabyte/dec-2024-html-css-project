@@ -7,7 +7,6 @@
 body {
     color: #2B2C34;
 
-    /* 20 px - Sub Heading 2 */
     font-family: "Plus Jakarta Sans", serif;
     font-size: 20px;
     font-style: normal;
@@ -25,7 +24,6 @@ button:hover {
 .general-div {
     width: 100%;
     min-width: 1250px;
-    /*padding: 0 6.6vw;*/
     box-sizing: border-box;
 }
 
@@ -43,7 +41,6 @@ header {
 
     background: #EFF0F3;
 
-    /* For White Background */
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 
     position: sticky;
@@ -58,7 +55,6 @@ header > h1 {
     font-weight: 600;
     line-height: normal;
 
-    /*margin-right: 20.83vw;*/
 }
 
 header > h1 > span {
@@ -90,7 +86,6 @@ header > h1 > span {
 
     color: #2B2C34;
 
-    /* 20 px - Sub Heading 2 */
     font-family: "Plus Jakarta Sans", serif;
     font-size: 20px;
     font-style: normal;
@@ -103,7 +98,6 @@ header > h1 > span {
     margin-left: 3.47vw;
 
     min-height: 44px;
-    /*width: 213px;*/
 
     box-sizing: border-box;
 
@@ -126,7 +120,6 @@ header > h1 > span {
 }
 
 .header-div > button > svg {
-    /*margin-right: 0.69vw;*/
     margin-right: 10px;
 }
 
@@ -172,13 +165,11 @@ main {
 }
 
 .upper-box-block > h2 {
-    /*width: 92.92%;*/
     width: 42.85vw;
     max-width: 617px;
 
     color: #2B2C34;
 
-    /* 64 px - Heading 1 */
     font-family: "Plus Jakarta Sans", serif;
     font-size: 64px;
     font-style: normal;
@@ -191,7 +182,6 @@ main {
     width: 99.69%;
     color: #9A9494;
 
-    /* 20 px - Paragraph 1 */
     font-family: "Plus Jakarta Sans", serif;
     font-size: 20px;
     font-style: normal;
@@ -212,20 +202,9 @@ main {
 
     width: 42.29vw;
     max-width: 609px;
-    /*width: 30.83vw;*/
 }
 
 .upper-box-block form label  {
-    /*width: 444px;*/
-
-    /*display: flex;*/
-    /*padding: 21px 200px 21px 25px;*/
-    /*align-items: center;*/
-    /*gap: 10px;*/
-
-    /*border-radius: 8px;*/
-    /*background: #FFFFFE;*/
-
     display: flex;
     padding: 21px 1.74vw 21px 1.74vw;
     align-items: center;
@@ -234,19 +213,13 @@ main {
     border-radius: 8px;
     background: #FFFFFE;
 
-    /*border: 0;*/
     width: 30.83vw;
     min-width: 262px;
-    /*height: 100%;*/
 
     box-sizing: border-box;
 }
 
 .upper-box-block form label:has(input:focus)  {
-    /*min-width: 444px;*/
-    /*min-width: calc(444px - 25px);*/
-
-    /*padding: 21px 25px 21px 25px;*/
 
     padding-right: 1.74vw;
 
@@ -254,18 +227,12 @@ main {
 }
 
 .upper-box-block form label input:focus  {
-    /*border: 0;*/
-    /*outline: none;*/
-
-    /*padding: 21px 25px 21px 25px;*/
-
 
     outline: none;
     border: none;
 
     color: black;
 
-    /* 20 px - Paragraph 1 */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -275,36 +242,16 @@ main {
 }
 
 .upper-box-block input {
-    /*display: flex;*/
-    /*!*padding: 21px 200px 21px 25px;*!*/
-    /*align-items: center;*/
-    /*gap: 10px;*/
-
     border-radius: 8px;
     background: #FFFFFE;
-    /*border: none;*/
-
-    /*!*color: #C0C0C0;*!*/
-    /*color: black;*/
-
-    /*!* 20 px - Paragraph 1 *!*/
-    /*font-size: 20px;*/
-    /*font-style: normal;*/
-    /*font-weight: 400;*/
-    /*line-height: normal;*/
-
-    /*min-width: 15.21vw;*/
-    /*width: 100%;*/
 
     width: 100%;
-    /*min-width: 261px;*/
     height: 25px;
     gap: 10px;
 
 
     color: #C0C0C0;
 
-    /* 20 px - Paragraph 1 */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -333,7 +280,6 @@ main {
 
     color: #FFFFFE;
 
-    /* 20 px - Sub Heading 2 */
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -351,7 +297,6 @@ main {
 
     color: #2B2C34;
 
-    /* 24 px - Sub heading 1 */
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -371,7 +316,6 @@ main {
     text-align: right;
     text-decoration: none;
 
-    /* 20 px - Sub Heading 2 */
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -464,8 +408,6 @@ main {
 
 .section-box > .section-article > article {
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     flex-direction: column;
 
     padding: 20px;
@@ -485,7 +427,6 @@ main {
 
     color: #2B2C34;
 
-    /* 20 px - Sub Heading 2 */
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -504,9 +445,7 @@ main {
 article > .image_JS_book {
     border-radius: 12.599px;
     background: url("images/article-images/JS_book.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -514,9 +453,7 @@ article > .image_JS_book {
 article > .image_GRID_photo {
     border-radius: 12.599px;
     background: url("images/article-images/GRID_photo.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -524,9 +461,7 @@ article > .image_GRID_photo {
 article > .image_Animated-lights {
     border-radius: 12.599px;
     background: url("images/article-images/Animated-lights.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -534,9 +469,7 @@ article > .image_Animated-lights {
 article > .image_React_JS {
     border-radius: 12.599px;
     background: url("images/article-images/React_JS.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -544,9 +477,7 @@ article > .image_React_JS {
 article > .flex-box-css {
     border-radius: 12.599px;
     background: url("images/article-images/flex-box-css.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -554,9 +485,7 @@ article > .flex-box-css {
 article > .div-center {
     border-radius: 12.599px;
     background: url("images/article-images/div-center.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -564,9 +493,7 @@ article > .div-center {
 article > .array-in-js {
     border-radius: 12.599px;
     background: url("images/article-images/array-in-js.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -574,9 +501,7 @@ article > .array-in-js {
 article > .project_7_in_js {
     border-radius: 12.599px;
     background: url("images/article-images/project_7_in_js.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -584,9 +509,7 @@ article > .project_7_in_js {
 article > .simple_calculator {
     border-radius: 12.599px;
     background: url("images/article-images/simple_calculator.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -594,9 +517,7 @@ article > .simple_calculator {
 article > .first_month_learning_react {
     border-radius: 12.599px;
     background: url("images/article-images/first_month_learning_react.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -604,9 +525,7 @@ article > .first_month_learning_react {
 article > .markdown_editor {
     border-radius: 12.599px;
     background: url("images/article-images/markdown_editor.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -614,9 +533,7 @@ article > .markdown_editor {
 article > .getting_started_with_react {
     border-radius: 12.599px;
     background: url("images/article-images/getting_started_with_react.png") lightgray 50% / cover no-repeat;
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
+
     width: 260px;
     height: 198px;
 }
@@ -640,7 +557,6 @@ article > .getting_started_with_react {
 .profile-name-and-date > h5 {
     color: #2B2C34;
 
-    /* 16 px - Paragraph 3 Semi bold */
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -652,7 +568,6 @@ article > .getting_started_with_react {
 .profile-name-and-date > p {
     color: #2B2C34;
 
-    /* 14 px - Paragraph 4 */
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -667,16 +582,11 @@ article > .getting_started_with_react {
     border-radius: 57px;
     background: url("images/personal_photo/Personal_photo.jpg") lightgray 50% / cover no-repeat;
 
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
-
 }
 
 .sections-box > button {
     color: #FFFFFE;
 
-    /* 20 px - Sub Heading 2 */
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -705,8 +615,6 @@ article > .getting_started_with_react {
     min-height: 453px;
 
     display: inline-flex;
-    /*padding: 58px 372px;*/
-    /*padding: 58px 25.97vw;*/
 
     flex-direction: column;
     align-items: flex-start;
@@ -746,7 +654,6 @@ article > .getting_started_with_react {
     height: 106.755px;
     flex-shrink: 0;
 
-    /*border-radius: 50%;*/
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
 
@@ -767,8 +674,6 @@ article > .getting_started_with_react {
 
     margin-bottom: 10px;
 
-    /*padding: 0 30px;*/
-
     text-align: center;
 }
 
@@ -776,14 +681,11 @@ article > .getting_started_with_react {
     color: #C0C0C0;
     text-align: center;
 
-    /* 20 px - Paragraph 1 */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: none;
-
-    /*padding: 0 30px;*/
 }
 
 .aside-box > form {
@@ -795,15 +697,12 @@ article > .getting_started_with_react {
     gap: 20px;
     justify-content: space-between;
 
-    /*margin: 0 6.6vw;*/
-
     padding: 0 20px;
     box-sizing: border-box;
 }
 
 .aside-box > form > label {
     display: flex;
-    /*padding: 21px 13.89vw 21px 1.74vw;*/
     padding: 21px 1.74vw 21px 1.74vw;
     align-items: center;
     gap: 10px;
@@ -811,11 +710,8 @@ article > .getting_started_with_react {
     border-radius: 8px;
     background: #FFFFFE;
 
-    /*border: 0;*/
     width: 30.83vw;
     min-width: 262px;
-    /*min-width: 15.21vw;*/
-    /*height: 100%;*/
 }
 
 .aside-box form label input {
@@ -825,7 +721,6 @@ article > .getting_started_with_react {
 
     color: #C0C0C0;
 
-    /* 20 px - Paragraph 1 */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -839,7 +734,6 @@ article > .getting_started_with_react {
 .aside-box > form > label > input::placeholder {
     color: #C0C0C0;
 
-    /* 20 px - Paragraph 1 */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -858,7 +752,6 @@ article > .getting_started_with_react {
 
     color: black;
 
-    /* 20 px - Paragraph 1 */
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -878,7 +771,6 @@ article > .getting_started_with_react {
 
     color: #FFFFFE;
 
-    /* 20 px - Sub Heading 2 */
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -897,9 +789,6 @@ footer {
     width: 100%;
     min-height: 435px;
     background: #E4E5E9;
-
-
-    /*box-sizing: border-box;*/
 
     flex-shrink: 0;
 }
@@ -925,11 +814,6 @@ footer {
 .social-networks-box {
     height: 138px;
     width: 19.72vw;
-    /*
-    /**/
-    /**/
-    /**/
-    /**!*/
 
     display: flex;
     flex-direction: column;
@@ -957,7 +841,6 @@ footer {
 .social-networks-box > p {
     color: #2B2C34;
 
-    /* 18 px - Paragraph 2 */
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1017,7 +900,6 @@ footer {
 
     color: #2B2C34;
 
-    /* 18 px - Paragraph 2 */
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1038,8 +920,6 @@ footer {
 }
 
 footer > p {
-
-    /*margin: 26px 0 26px 0;*/
 
     color: #2B2C34;
     font-size: 14px;
